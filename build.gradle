@@ -1,0 +1,18 @@
+plugins {
+    id 'java'
+}
+
+group 'com.lvan100'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile group: 'com.graphql-java', name: 'graphql-java', version: '11.0'
+    testCompile group: 'org.springframework.boot', name: 'spring-boot-starter-web', version: '1.5.17.RELEASE'
+    testCompile group: 'org.springframework.boot', name: 'spring-boot-starter-test', version: '1.5.17.RELEASE'
+}
