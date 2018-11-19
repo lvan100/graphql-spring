@@ -33,6 +33,8 @@ public class GraphQLController {
     }
 
 }
+```
 
 ```java
 {hello{world,tom{lastName}},echo}
+```
